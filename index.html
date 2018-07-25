@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="styles/index.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <title>Book Depository</title>
+</head>
+
+<body>
+    <div class="flex-site">
+        <div class="header-flex-container">
+            <div class="logo-wrap">
+                <img src="img/logo.svg"  style="width: 145px" alt="logo">
+            </div>
+            <div class="search-wrap">
+                <form class="inputSearchBooks" action="/search">
+                    <input type="text" placeholder="Search for books by keyword / title / author / ISBN" aria-label="Search for books by keyword / title / author / ISBN" name="searchTerm" class="text-input" value="">
+                    <button aria-label="Search" class="header-search-btn" type="submit"><span class="text">Search</span></button>
+                </form>
+            </div>
+        </div>
+        <div class="nav-wrap">
+            <nav class="nav-bar">
+                <ul class="nav-flex">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Ipsum</a></li>
+                </ul>
+            </nav>
+            <div class="basket-wrap basket-right">
+                <div class="basket-flex">
+                    <span class="total">0,00 €</span>
+                    <span><span class="item-count">0&nbsp;</span>Items</span>
+                    <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrap">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img src="img/img1.jpg" style="width:100%">
+                </div>
+        
+                <div class="mySlides fade">
+                    <img src="img/img2.jpg" style="width:100%">
+                </div>
+        
+                <div class="mySlides fade">
+                    <img src="img/img3.png" style="width:100%">
+                </div>
+
+            </div>
+            <!-- Books container -->
+            <div class="block-wrap">
+                <div class="block-header">
+                    <h3>Best Sellers</h3>
+                </div>
+                <div class="block-content">
+                    <div class="element">
+                        <img src="img/books/book-0.jpg" alt="#">
+                        <span class="price-0 price">19,90€</span>
+                    </div>
+                    <div class="element">
+                        <img src="img/books/book-1.jpg" alt="#">
+                        <span class="price-1 price">12,90€</span>
+                    </div>
+                    <div class="element">
+                        <img src="img/books/book-2.jpg" alt="#">
+                        <span class="price-2 price">15,90€</span>
+                    </div>
+                    <div class="element">
+                        <img src="img/books/book-3.jpg" alt="#">
+                        <span class="price-3 price">9,90€</span>
+                    </div>
+                    <div class="element">
+                        <img src="img/books/book-4.jpg" alt="#">
+                        <span class="price-4 price">10,90€</span>
+                    </div>
+                    <div class="element">
+                        <img src="img/books/book-5.jpg" alt="#">
+                        <span class="price-5 price">14,90€</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer-quote">
+            <h2>&#34;We are what we read&#34;</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit habitant nisi, est blandit suscipit nibh magna natoque penatibus nascetur quis, sem diam luctus tempor ultricies mus faucibus cum.</p>
+        </footer>
+        <footer class="footer-newsletter">
+                <div class="footer-newsletter-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="input-newsletter">
+                    <input type="text" placeholder="example@mail.com">
+                </div>
+                <div class="btn-newsletter">
+                    <button>Subscribe</button>
+                </div>
+        </footer>
+    </div>
+</body>
+
+
+<!-- LO PONEMOS AL FINAL PARA QUE SE CARGUE PRIMERO EL HTML
+DE TODAS MANERAS, ES MEJOR AL PRICIPIO Y HACER UN DOCUMENT.ONLOAD
+PARA CARGAR EL JS UNA VEZ CARADO EL HTML. -->
+<script src="js/index.js"></script>
+</html>
+
